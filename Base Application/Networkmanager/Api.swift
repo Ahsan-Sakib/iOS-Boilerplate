@@ -28,11 +28,11 @@ extension API : TargetType {
     //It is set depending on Project deployment target
     public var environmentBaseUrl:String{
 //        switch NetworkManager.envManagement {
-//        case .development: return "https://dev-lightcafe.bjitgroup.com/api/v1/"
-//        case .staging: return "https://stg-lightcafe.bjitgroup.com/api/v1/"
-//        case .production: return "https://api.qoffee.me/api/v1/"
+//        case .development: return "https://"
+//        case .staging: return "https://"
+//        case .production: return "https://"
 //        }
-        return "https://dev-lightcafe.bjitgroup.com/api/v1/"
+        return "https://"
     }
 
     //TODO: will remove after Global configure API integration
